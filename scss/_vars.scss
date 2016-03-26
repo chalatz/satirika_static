@@ -1,1 +1,16 @@
-$bg-teaser: #eee;
+$bg-body: #fff;
+$bg-teaser: #30A9DE;
+
+$color-teaser-title: #fff;
+$color-teaser-category: #2A1E5C;
+
+$box-shadow-color-module: #090707;
+$text-shadow-color-teaser-title: #090707;
+
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
