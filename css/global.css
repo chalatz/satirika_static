@@ -361,7 +361,7 @@ html {
 
 body {
   font-family: 'Noto Serif', serif;
-  background: #fff; }
+  background: #fffff3; }
 
 a {
   text-decoration: none; }
@@ -387,7 +387,8 @@ a {
 .icon-quill {
   position: relative;
   width: 4em;
-  height: 4em; }
+  height: 4em;
+  fill: #ffffc0; }
 
 .site-header {
   margin-left: auto;
@@ -396,17 +397,42 @@ a {
   margin-bottom: 2em; }
 
 .site-icon {
-  background: green;
+  background: #176c91;
   border-radius: 100%;
   padding: 1.3em 1.5em;
-  display: inline-block; }
+  display: inline-block;
+  transition: all .2s ease-in; }
+  .site-icon:hover {
+    background: #30A9DE; }
+    .site-icon:hover .icon-quill {
+      fill: #fffff3; }
 
 .site-logo {
-  text-align: center;
-  margin-bottom: 4em; }
+  text-align: center; }
 
 .site-title {
-  font-size: 2em; }
+  display: block;
+  font-size: 2em;
+  color: #090707;
+  font-style: oblique;
+  margin: 1em 0 .5em 0;
+  padding: .1em;
+  line-height: 1.6em;
+  border-top: 3px solid #090707;
+  border-bottom: 3px solid #090707;
+  transition: all .2s ease-in; }
+  .site-title:hover {
+    color: #176c91;
+    border-top-color: #fffff3;
+    border-bottom-color: #176c91; }
+
+.site-slogan {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center; }
+  .site-slogan .symbol {
+    font-size: 1.7em;
+    line-height: .7em; }
 
 .teaser {
   background: #30A9DE;
@@ -428,7 +454,7 @@ a {
   font-family: 'Fira Sans', sans-serif;
   font-style: oblique;
   position: relative;
-  color: #fff;
+  color: #fffff3;
   display: block;
   font-size: 2.5em;
   font-weight: bold;
@@ -447,5 +473,15 @@ a {
   font-size: 1.2em; }
   .teaser-category:hover {
     text-decoration: underline; }
+
+.site-footer {
+  width: 100%;
+  background: #011638; }
+
+.footer-content {
+  width: 90%;
+  margin: 0 auto;
+  padding: .5em 0;
+  color: #fffff3; }
 
 /*# sourceMappingURL=global.css.map */

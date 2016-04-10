@@ -1,7 +1,16 @@
-$bg-body: #fff;
-$bg-teaser: #30A9DE;
+$black: #090707;
+$white: #fffff3;
+$blue: #30A9DE;
+$red: #E53A40;
+$brown: #AF4034;
+$yellow: #EFDC05;
+$blue-dark: darken($blue, 20%);
+$white-dark: darken($white, 10%);
 
-$color-teaser-title: #fff;
+$bg-body: $white;
+$bg-teaser: $blue;;
+
+$color-teaser-title: $white;;
 $color-teaser-category: #2A1E5C;
 
 $box-shadow-color-module: #090707;
