@@ -16,14 +16,19 @@
 	color: darken($bg-teaser, 15%);
 }
 
-.teaser-title {
+.teaser-title,
+.poem-title {
 	font-family: 'Fira Sans', sans-serif;
 	font-style: oblique;
+	font-weight: bold;
+}
+
+.teaser-title {
+	font-family: 'Fira Sans', sans-serif;
 	position: relative;
 	color: $color-teaser-title;
 	display: block;
 	font-size: 2.5em;
-	font-weight: bold;
 	text-shadow: 2px 2px 1px $text-shadow-color-teaser-title;
 	z-index: 100;
 
@@ -43,5 +48,40 @@
 
 	&:hover {
 		text-decoration: underline;
+	}
+}
+
+.poem-title {
+	text-align: center;
+	font-size: 2.1em;
+	letter-spacing: .05em;
+	background: $blue-dark;
+	color: $white;
+	line-height: 2em;
+	@include breakpoint(medium) {
+		font-size: 2.5em;
+	}
+}
+
+.poem {
+	width: 100%;
+	color: $black;
+	padding: 1em;
+}
+
+.poem-body {
+	padding-left: 1em;
+	font-size: 1.3em;
+	letter-spacing: .02em;
+	font-style: oblique;
+	line-height: 1.5em;
+	@include breakpoint(medium) {
+		padding-left: 2em;
+		font-size: 1.5em;
+	}
+	@include breakpoint(large) {
+		padding-left: 4em;
+		font-size: 1.6em;
+		line-height: 1.7em;
 	}
 }
