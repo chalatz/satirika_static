@@ -16,6 +16,22 @@
   }
 }
 
+.contact-page  {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  @include breakpoint(medium){
+    width: 75%;
+  }
+  @include breakpoint(medium){
+    width: 60%;
+  }
+  p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+}
+
 .title {
   font-family: 'Fira Sans', sans-serif;
   border-bottom: 6px solid $brown;

@@ -480,6 +480,20 @@ a {
     font-size: 1.1em;
     line-height: 1.5em; }
 
+.contact-page {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2em; }
+  @media (min-width: 50em) {
+    .contact-page {
+      width: 75%; } }
+  @media (min-width: 50em) {
+    .contact-page {
+      width: 60%; } }
+  .contact-page p {
+    font-size: 1.1em;
+    line-height: 1.5em; }
+
 .title {
   font-family: 'Fira Sans', sans-serif;
   border-bottom: 6px solid #AF4034;
