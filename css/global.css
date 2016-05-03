@@ -513,7 +513,8 @@ a {
 .teaser-body {
   position: absolute;
   top: 3.5em;
-  right: -8em;
+  width: 100%;
+  left: 60%;
   color: #1b7ca7; }
 
 .teaser-title,
@@ -523,7 +524,6 @@ a {
   font-weight: bold; }
 
 .teaser-title {
-  font-family: 'Fira Sans', sans-serif;
   position: relative;
   color: #fffff3;
   display: block;
